@@ -312,9 +312,19 @@ body {
         margin: 0 20px;
     }
 
-    .response-chat-title h2 {
+    .response-chat-title h2,.easy-chating-contant h2 {
         font-size: 36px;
     }
+
+
+
+    .easy-chating-section{
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+
+
+
 
 
 }
@@ -348,6 +358,28 @@ body {
 .response-chat-title h2{
     font-size: 28px;
 }
+ .response-chat-title h2,.easy-chating-contant h2 {
+        font-size: 36px;
+    }
+
+
+
+    .easy-chating-section{
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
