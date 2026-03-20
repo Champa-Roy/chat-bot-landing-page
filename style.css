@@ -180,6 +180,7 @@ body {
     display: flex;
     gap: 80px;
     margin-top: 70px;
+    align-items: center;
 }
 
 .response-chat-img {
@@ -344,7 +345,9 @@ body {
 .exclusive-features-card p{
     width: 100%;
 }
-
+.response-chat-title h2{
+    font-size: 28px;
+}
 
 }
 
