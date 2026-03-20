@@ -510,6 +510,63 @@ border-top-right-radius: 10px;
     font-weight: 500;
 }
 
+/* 8th section */
+.newsletter-section{
+    background-image: url(https://landio.uicore.co/chat-bot/wp-content/uploads/sites/5/2021/06/chatbot-news-bg1-.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f0f6ff;
+    padding: 60px;
+    text-align: center;
+    border-radius: 10px;
+}
+.newsletter-section p{
+font-size: 18px;
+color: #6E727D;
+}
+.newsletter-section h2{
+font-size: 42px;
+color: #161C2D;
+margin-top: 0;
+}
+
+.newsletter-form input{
+    padding: 18px;
+    width: 300px;
+    font-size: 18px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.newsletter-form button{
+ padding: 18px 30px;
+    font-size: 18px;
+    background-color: #e25c6a;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.newsletter-form button:hover{
+    background-color: #8208fe;
+    color: white;
+}
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
 /* responsive for small device */
 @media screen and (max-width: 600px) {
     .nav-link a {
@@ -622,6 +679,25 @@ border-top-right-radius: 10px;
 .news-blog-contant h2{
     font-size: 36px;
 }
+.newsletter-section h2{
+font-size: 36px;
+
+}
+.newsletter-form input{
+    width: 200px;
+    font-size: 16px;
+    
+    
+}
+
+.newsletter-form button{
+ padding: 10px 20px;
+   font-size: 14px; 
+}
+
+
+
+
 
 
 }
