@@ -558,12 +558,47 @@ margin-top: 0;
     gap: 20px;
 }
 
-
-
-
-
-
-
+/* footer section */
+.footer-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding: 60px;
+}
+.footer-contant h2, .footer-nav-link h2{
+font-size: 18px;
+color: #161C2D;
+}
+.footer-contant p{
+    font-size: 16px;
+    color: #6E727D;
+    line-height: 30px;
+}
+.footer-icon img{
+    width: 30px;
+    cursor: pointer;
+}
+.footer-nav-link{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-nav-link a{
+    text-decoration: none;
+    color: #161C2D;
+}
+.footer-nav-link a:hover{
+    color: #E25C6A;
+    text-decoration: underline;
+}
+.footer-contact-details{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-contact-details img{
+    width: 30px;
+}
 
 
 
@@ -694,7 +729,11 @@ font-size: 36px;
  padding: 10px 20px;
    font-size: 14px; 
 }
-
+.footer-section{
+    grid-template-columns: repeat(1,1fr);
+    padding: 20px;
+   
+}
 
 
 
@@ -808,7 +847,11 @@ font-size: 36px;
 .news-blog-contant h2{
     font-size: 36px;
 }
-
+.footer-section{
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px;
+   
+}
 
 
 
